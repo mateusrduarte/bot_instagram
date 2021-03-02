@@ -29,7 +29,7 @@ class InstagramBot:
         infoLogin = driver.find_element_by_xpath("//button[@class='sqdOP yWX7d    y3zKF     ']")
         infoLogin.click()
 
-        driver.get("https://www.instagram.com/p/CLxfQABhcTK/") #url da pagiga
+        driver.get("https://www.instagram.com/p/CLfPOBPBSV3/") #url da pagiga
 
         self.comentarios()
 
@@ -43,7 +43,7 @@ class InstagramBot:
         driver = self.driver
 
         try:
-            listaComentarios = ["🔥","👏","🎉","😊","🥰","😁","😄","😃","😀","🤩","😛","😜","😝","😎","🤓","😏","🤖","💀","👽","😈","🤪"]
+            listaComentarios = ["🔥","👏","🎉","😊","🥰","😁","😄","😃","😀","🤩","😛","😜","😝","😎","🤓","😏","🤖","💀","👽","😈","🤪", "Quero", "Chamma 🔥", "Manda pra cá", "Amei", "Gostei", "Amo", "É meu", "Vokere", "Me de papai 😜😜😜", "È do pai", "Manda", "Kkkkkk", "Só vem"]
             driver.find_element_by_class_name('Ypffh').click()
             comentarioCampo = driver.find_element_by_class_name('Ypffh')
             time.sleep(random.randint(2,5))
